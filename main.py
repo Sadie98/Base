@@ -26,7 +26,7 @@ def index(words="",stop_words=""):
     return send_file('C://Users/Уля/PycharmProjects/base/base.xls')
 
 def find(words_, stop_words_):
-    access_token = "3100a6250afd5c4ac585551362405562a5f7f5e0d74939167aebea435698ec58155f5df06f0f1f4b2bb5c"
+    access_token = ""
     api = get_api(access_token)
     wb = xlwt.Workbook()
     all = set()
